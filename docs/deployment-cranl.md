@@ -12,7 +12,8 @@ runs inside the server.
 3. Health check: **`/api/ready`**. It proves PostgreSQL as well as the process
    and returns 503 when the database is unreachable. (`/api/health` checks the
    process only.)
-4. Use the same region as the project (`saudi-arabia-1`). A region is fixed at
+4. Region **`riyadh-1`** (Riyadh), where the database must also go. A CranL
+   project has no region of its own, and an app's region is fixed at
    creation.
 
 ## 2. The database
